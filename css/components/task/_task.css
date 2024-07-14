@@ -1,0 +1,71 @@
+.lol {
+	max-width: 540px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.list-task__item {
+	border-bottom: 1px solid #e3e4f1;
+}
+
+.task {
+	padding-left: 24px;
+}
+
+.task__text {
+	position: relative;
+	width: 100%;
+	padding: 20px 24px;
+	padding-left: 40px;
+}
+
+.custom-checkbox {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.task__text,
+.custom-checkbox {
+	cursor: pointer;
+}
+.custom-checkbox + .task__text {
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+}
+.custom-checkbox + .task__text::before {
+	content: '';
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #979797;
+	border-radius: 50%;
+	background-position: center center;
+
+	position: absolute;
+	left: 0;
+	top: 25%;
+}
+
+.custom-checkbox:checked + .task__text::before {
+	background-image: url('../../../img/checkbox.png');
+}
+.custom-checkbox:checked + .task__text {
+	text-decoration: line-through;
+	color: #d1d2da;
+}
+
+.list__footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 24px;
+	color: #9495a5;
+}
+
+.list-button {
+	font-weight: 700;
+	display: flex;
+	column-gap: 20px;
+	margin: 0 15px;
+}

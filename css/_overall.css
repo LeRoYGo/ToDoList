@@ -1,0 +1,17 @@
+body {
+	font-family: 'Josefin Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+		sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+button:active {
+	outline: none;
+}
+.wrapper {
+	background: url('../img/bg.png') no-repeat left top/100% 300px,
+		linear-gradient(60deg, rgba(85, 150, 255, 1) 0%, rgba(172, 45, 235, 1) 100%)
+			no-repeat top/100% 300px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}

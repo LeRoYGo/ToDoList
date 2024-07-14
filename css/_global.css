@@ -43,3 +43,17 @@ a {
 img {
 	max-width: 100%;
 }
+
+html,
+body {
+	height: 100%;
+	color: #494c6b;
+}
+button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
