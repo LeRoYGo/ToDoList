@@ -9,7 +9,7 @@ button:active {
 	outline: none;
 }
 .wrapper {
-	background: url('../img/bg.png') no-repeat left top/100% 300px,
+	background: url('../img/bg.png') no-repeat center top/100% 300px,
 		linear-gradient(60deg, rgba(85, 150, 255, 1) 0%, rgba(172, 45, 235, 1) 100%)
 			no-repeat top/100% 300px;
 	min-height: 100%;
@@ -18,9 +18,9 @@ button:active {
 }
 
 .main {
-	max-width: 700px;
+	max-width: 730px;
 	width: 100%;
-	padding: 70px 0;
+	padding: 70px 15px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
