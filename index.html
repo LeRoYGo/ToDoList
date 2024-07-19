@@ -8,45 +8,37 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<div class="lol">
-				<ul class="list-task">
-					<li class="list-task__item">
-						<div class="task">
-							<input
-								class="custom-checkbox"
-								id="taskId-1"
-								name="task__checkbox"
-								type="checkbox"
-							/>
-							<label class="task__text" for="taskId-1"
-								>Complete Todo App on Frontend Mentor</label
-							>
+			<div class="main">
+				<div class="header">
+					<h1 class="header-title">TODO</h1>
+				</div>
+				<form id="form-task" class="input-wrapper">
+					<label class="hidden input-wrapper__label" for="input-text-task"
+						>Enter task text</label
+					>
+					<input
+						class="input-wrapper__input"
+						type="text"
+						name="input-text"
+						id="input-text-task"
+						autocomplete="off"
+						placeholder="Create a new todo…"
+					/>
+				</form>
+				<div class="list-wrapper">
+					<ul class="list-task"></ul>
+					<div class="list__footer">
+						<span id="numberTasks">0 items left</span>
+						<div class="list-button">
+							<button class="active" id="btn-all">All</button>
+							<button id="btn-active">Active</button>
+							<button id="btn-completed">Completed</button>
 						</div>
-					</li>
-					<li class="list-task__item">
-						<div class="task">
-							<input
-								class="custom-checkbox"
-								id="taskId-2"
-								name="task__checkbox"
-								type="checkbox"
-							/>
-							<label class="task__text" for="taskId-2"
-								>Jog around the park 3x</label
-							>
-						</div>
-					</li>
-				</ul>
-				<div class="list__footer">
-					<span>5 items left</span>
-					<div class="list-button">
-						<button>All</button>
-						<button>Active</button>
-						<button>Completed</button>
+						<button id="btn-clearAll">Clear Completed</button>
 					</div>
-					<button>Clear Completed</button>
 				</div>
 			</div>
 		</div>
+		<script src="./js/main.js"></script>
 	</body>
 </html>

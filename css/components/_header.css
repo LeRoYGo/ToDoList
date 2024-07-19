@@ -1,0 +1,10 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.header-title {
+	text-transform: uppercase;
+	font-size: 40px;
+	color: var(--text);
+}

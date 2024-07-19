@@ -4,4 +4,6 @@
 @import './_global.css';
 @import './_overall.css';
 
-@import './components/task/_task.css';
+@import './components/_task.css';
+@import './components/_header.css';
+@import './components/_list-task.css';

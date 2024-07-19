@@ -9,8 +9,8 @@
 @font-face {
 	font-family: 'Josefin Sans';
 	src: local('Josefin Sans'),
-		url('../fonts/JosefinSans-Regular.woff2') format('woff2'),
-		url('../fonts/JosefinSans-Regular.woff') format('woff');
+		url('../fonts/JosefinSans-Bold.woff2') format('woff2'),
+		url('../fonts/JosefinSans-Bold.woff') format('woff');
 	font-weight: 700;
 	font-style: normal;
 }
