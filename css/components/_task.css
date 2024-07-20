@@ -34,7 +34,7 @@
 }
 
 .custom-checkbox:checked + .task__text::before {
-	background-image: url('../../../img/checkbox.png');
+	background-image: url('../../img/checkbox.png');
 }
 .custom-checkbox:checked + .task__text {
 	text-decoration: line-through;
