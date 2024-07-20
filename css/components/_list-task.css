@@ -2,11 +2,10 @@
 	background-color: var(--list-task-bg);
 	border-radius: 5px;
 	box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 1);
-	overflow: hidden;
 }
 .list-task {
 	height: 50vh;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 .list-task__item {
 	border-bottom: 1px solid #e3e4f1;
