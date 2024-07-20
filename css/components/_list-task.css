@@ -6,6 +6,7 @@
 .list-task {
 	height: 50vh;
 	overflow-y: auto;
+	position: relative;
 }
 .list-task__item {
 	border-bottom: 1px solid #e3e4f1;
