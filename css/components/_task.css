@@ -17,6 +17,8 @@
 	display: inline-flex;
 	align-items: center;
 	user-select: none;
+	padding: 20px 24px;
+	padding-left: 60px;
 }
 .custom-checkbox + .task__text::before {
 	content: '';
@@ -28,7 +30,7 @@
 	background-position: center center;
 
 	position: absolute;
-	left: 0;
+	left: 20px;
 }
 
 .custom-checkbox:checked + .task__text::before {

@@ -9,7 +9,6 @@
 }
 .list-task__item {
 	border-bottom: 1px solid #e3e4f1;
-	padding: 20px 24px;
 	list-style-type: none;
 }
 .list__footer {
