@@ -18,6 +18,7 @@
 	gap: 10px;
 	padding: 20px 24px;
 	color: var(--white-text);
+	border-top: 1px solid #e3e4f1;
 }
 
 .list-button {
