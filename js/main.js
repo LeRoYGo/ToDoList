@@ -10,6 +10,7 @@ const listButton = document.querySelector('.list-button');
 const form = document.getElementById('form-task');
 
 let listTask = [];
+const evenJS = new Event('click');
 
 function elementCreation({ id, text, checked: isChecked = false }) {
 	const el = document.createElement('li');
@@ -103,4 +104,7 @@ btnAll.addEventListener('click', even => {
 	resetStylesListBtn(even.target);
 	renderAllListTask();
 });
-btnClearAll.addEventListener('click', clearAllListTask);
+btnClearAll.addEventListener('click', () => {
+	clearAllListTask();
+	btnAll.dispatchEvent(evenJS);
+});
