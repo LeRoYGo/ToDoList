@@ -84,6 +84,7 @@ function addTask(even) {
 	renderTask(task);
 	renderNumberTasks();
 	form.reset();
+	btnAll.dispatchEvent(evenJS);
 }
 function checkedTask(even) {
 	const checkbox = even.target;
